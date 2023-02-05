@@ -6,24 +6,17 @@
 }
 
 body{
-    background-color: #f1f1f1;
+    background-color:#dc1414;
 }
 
-.top__heading{
-    background-color: #fff;
+#top__heading{
+    background-color: red;
     padding: 20px;
     border-bottom: 1px solid #ccc;
     text-align: center;
 }
 
-.top__heading > h1{
-    font-size: 30px;
-    font-weight: 600;
-    color: #333;
-    text-align: center;
-}
-
-.top__heading > p{
+#top__heading > p{
     font-size: 14px;
     color: #333;
     text-align: center;
@@ -60,6 +53,7 @@ body{
 .card-image {
     max-width: 20vw;
     grid-row: 1/3;
+    min-height: 11vw;
 }
 
 .card-content {
@@ -87,6 +81,7 @@ body{
     font-weight: 600;
     color: #333;
     text-align: center;
+    animation-direction: normal;
 }
 
 #pagination{
