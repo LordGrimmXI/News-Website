@@ -16,6 +16,7 @@ function createCard(article){
     var image = document.createElement("img");
     image.src = article.urlToImage;
     
+    
     var cardContent = document.createElement("div")
     cardContent.classList.add("card-content");
 
